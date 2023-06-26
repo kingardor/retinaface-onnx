@@ -22,7 +22,7 @@ cd weights
 python3 export_onnx.py --trained_model weights/mobilenet0.25_Final.pth --network mobile0.25
 
 # resnet50
-python3 export_onnx.py --trained_model Resnet50_Final.pth --network resnet50
+python3 export_onnx.py --trained_model weights/Resnet50_Final.pth --network resnet50
 ```
 
 ## 4. Run inference
